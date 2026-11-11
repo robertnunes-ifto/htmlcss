@@ -1,0 +1,71 @@
+body{
+    background-color: gray;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+main{
+    background-color: white;
+    padding: 50px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        
+
+}
+
+section{
+    margin: 30px;
+    border: solid grey;
+    border-radius: 5px;
+    
+}
+
+section:hover{
+    transform: translateY(-5px) scale(1.03); /* Sobe 5px e aumenta 3% de tamanho */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Cria uma sombra suave abaixo */
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+        border-radius: 10px;
+        cursor: pointer;
+}
+nav{
+    text-align: right;
+    padding: 20px;
+
+}
+nav a{
+    background-color: rgb(139, 138, 221);
+    border: solid rgb(191, 146, 146);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    color: pink;
+    display: inline-block;
+}
+nav a:hover{
+        transform: translateY(-5px);
+
+}
+.tagaux{
+background-color: white;
+    padding: 50px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+
+}
